@@ -27,7 +27,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Scraper Script
-        run: python padel_production.py
+        run: python test_script.py
         env:
           # Falls du später Zeitzonen brauchst
           TZ: 'Europe/Berlin' 
