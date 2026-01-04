@@ -27,7 +27,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Scraper Script
-        run: python test_script.py
+        run: python src/test_script.py
         env:
           # Falls du später Zeitzonen brauchst
           TZ: 'Europe/Berlin' 
